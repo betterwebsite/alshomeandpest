@@ -1,0 +1,64 @@
+---
+title: 'Leaf Stoppers | Al''s Home and Pest'
+description: 'Meta description for the page'
+preloadImg: '/assets/images/pests.jpg'
+permalink: 'leaf-stoppers/'
+eleventyNavigation:
+    key: Leaf Stoppers
+    order: 320
+---
+
+{% extends "layouts/base.html" %}
+
+{% block body %}
+    <!-- ============================================ -->
+    <!--                    LANDING                   -->
+    <!-- ============================================ -->
+
+    <section id="int-hero">
+        <h1 id="home-h">Leaf Stoppers</h1>
+        <picture>
+            <source media="(max-width: 600px)" srcset="/assets/images/pests.jpg">
+            <source media="(min-width: 601px)" srcset="/assets/images/pests.jpg">
+            <img aria-hidden="true" decoding="async" src="/assets/images/pests.jpg" alt="gutter guards and leaf stoppers" loading="eager" width="2500" height="1667">
+        </picture>
+    </section>
+
+    <!-- ============================================ -->
+    <!--                Side By Side                  -->
+    <!-- ============================================ -->
+
+    <section id="sbs-1815">
+        <div class="cs-container">
+            <div class="cs-image-group">
+                <picture class="cs-picture">
+                    <source media="(max-width: 600px)" srcset="/assets/images/steam.jpg">
+                    <source media="(min-width: 601px)" srcset="/assets/images/steam.jpg">
+                    <img loading="lazy" decoding="async" src="/assets/images/steam.jpg" alt="leaf stopper installation" width="700" height="666">
+                </picture>
+                <img class="cs-mask cs-light" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/paint-splash-222.svg" alt="white splatter" width="700" height="666">
+                <img class="cs-mask cs-dark" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/dark-splash-030.svg" alt="white splatter" width="700" height="666">
+            </div>
+            <div class="cs-content">
+                <span class="cs-topper">Leaf Stoppers</span>
+                <h2 class="cs-title">Leave the Clogs Behind: Gutter Guards Keep Your Home Dry & Rodent-Free</h2>
+                <p class="cs-text">
+                    When gutters are clogged with leaves, twigs, and other debris, water can’t flow properly away from your home. This pooling water can lead to roof leaks, mold growth, and even structural damage if it seeps under your roofing materials. Installing leaf stoppers or gutter guards ensures that rainwater drains smoothly, protecting your home from expensive moisture issues and saving you time and hassle down the road.
+                </p>
+                <h2 class="cs-title">Block Rodents and Insects</h2>
+                <p class="cs-text">
+                    Leaf debris in your gutters doesn’t just trap water—it also attracts insects and ants looking for a food source or a damp nesting spot. Rodents like mice and rats see these insects as a tasty snack and are drawn in as well. Once they’re in your gutters, it’s just a short hop for them to find a way inside your attic or walls. By adding gutter guards, you remove the welcome mat for critters and pests alike, cutting off one of their favorite access routes and helping keep your home pest-free.
+                </p>
+                <h2 class="cs-title">Act Now to Protect Your Home</h2>
+                <p class="cs-text">
+                    Every day you put off installing leaf stoppers or gutter guards is another day for debris and pests to build up and create problems. The sooner you make the upgrade, the faster you’ll enjoy peace of mind knowing your home is safeguarded against water damage, insects, and rodents. Don’t wait for a minor clog to turn into a major headache—reach out today to schedule an inspection or consultation and keep your property secure for years to come.
+                </p>
+                <a href="tel:{{client.phoneForTel}}" class="cs-button-solid">Call Now</a>
+            </div>
+        </div>
+
+        <img class="cs-graphic cs-light" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/1d1c-splatter.svg" alt="graphic" height="161" width="1920" loading="lazy" decoding="async" >
+        <img class="cs-graphic cs-dark" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Graphics/dark-mode-splatter2.svg" alt="graphic" height="161" width="1920" loading="lazy" decoding="async" >
+    </section>
+                                 
+{% endblock %}

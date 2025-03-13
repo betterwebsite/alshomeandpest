@@ -1,0 +1,64 @@
+---
+title: 'Squirrels | Al''s Home and Pest'
+description: 'Meta description for the page'
+preloadImg: '/assets/images/pests.jpg'
+permalink: 'squirrels/'
+eleventyNavigation:
+    key: Squirrels
+    order: 270
+---
+
+{% extends "layouts/base.html" %}
+
+{% block body %}
+    <!-- ============================================ -->
+    <!--                    LANDING                   -->
+    <!-- ============================================ -->
+
+    <section id="int-hero">
+        <h1 id="home-h">Squirrels</h1>
+        <picture>
+            <source media="(max-width: 600px)" srcset="/assets/images/pests.jpg">
+            <source media="(min-width: 601px)" srcset="/assets/images/pests.jpg">
+            <img aria-hidden="true" decoding="async" src="/assets/images/pests.jpg" alt="squirrel control" loading="eager" width="2500" height="1667">
+        </picture>
+    </section>
+
+    <!-- ============================================ -->
+    <!--                Side By Side                  -->
+    <!-- ============================================ -->
+
+    <section id="sbs-1815">
+        <div class="cs-container">
+            <div class="cs-image-group">
+                <picture class="cs-picture">
+                    <source media="(max-width: 600px)" srcset="/assets/images/steam.jpg">
+                    <source media="(min-width: 601px)" srcset="/assets/images/steam.jpg">
+                    <img loading="lazy" decoding="async" src="/assets/images/steam.jpg" alt="squirrel infestation" width="700" height="666">
+                </picture>
+                <img class="cs-mask cs-light" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/paint-splash-222.svg" alt="white splatter" width="700" height="666">
+                <img class="cs-mask cs-dark" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/dark-splash-030.svg" alt="white splatter" width="700" height="666">
+            </div>
+            <div class="cs-content">
+                <span class="cs-topper">Squirrels</span>
+                <h2 class="cs-title">Squirrel Problems in Oklahoma: Why Professional Pest Control is the Solution</h2>
+                <p class="cs-text">
+                    Squirrels may seem harmless when they’re running around your yard, but when they invade your home, they can cause serious damage. In Oklahoma, squirrels often seek shelter in attics, crawlspaces, and chimneys—especially during colder months or when looking for a safe place to nest. Once inside, they chew through insulation, wiring, and even wooden beams, leading to costly repairs and potential fire hazards. Their constant gnawing, scurrying noises, and droppings can turn a minor issue into a major infestation if left unchecked.
+                </p>
+                <h2 class="cs-title">Why Professional Treatment is Essential</h2>
+                <p class="cs-text">
+                    Getting rid of squirrels isn’t as simple as setting a trap. These agile and persistent creatures will continue to find ways inside unless the root cause—entry points—is addressed. Professional pest control involves humane removal techniques to safely relocate the squirrels, followed by exclusion methods to seal up any gaps or openings they’ve used to get inside. Our experts also assess the extent of any damage and provide solutions to prevent future infestations.
+                </p>
+                <h2 class="cs-title">Protect Your Home Year-Round</h2>
+                <p class="cs-text">
+                    Squirrels are active throughout the year, meaning your home is always at risk if there are easy access points. Regular pest control and exclusion services can keep them from coming back, saving you from expensive damage and repeated infestations. If you’ve noticed scratching noises in your attic, chewed wires, or squirrel activity near your roofline, don’t wait until the damage worsens. Schedule an inspection today, and let us help you keep your home squirrel-free!
+                </p>
+                <a href="tel:{{client.phoneForTel}}" class="cs-button-solid">Call Now</a>
+            </div>
+        </div>
+
+        <img class="cs-graphic cs-light" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/1d1c-splatter.svg" alt="graphic" height="161" width="1920" loading="lazy" decoding="async" >
+        <img class="cs-graphic cs-dark" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Graphics/dark-mode-splatter2.svg" alt="graphic" height="161" width="1920" loading="lazy" decoding="async" >
+    </section>
+                                 
+{% endblock %}

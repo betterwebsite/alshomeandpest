@@ -1,0 +1,75 @@
+---
+title: 'Mice and Rats | Al''s Home and Pest'
+description: 'Meta description for the page'
+preloadImg: '/assets/images/pests.jpg'
+permalink: 'miceandrats/'
+eleventyNavigation:
+    key: Mice And Rats
+    order: 200
+---
+
+{% extends "layouts/base.html" %}
+
+
+{% block body %}
+    <!-- ============================================ -->
+    <!--                    LANDING                   -->
+    <!-- ============================================ -->
+
+    <section id="int-hero">
+        <h1 id="home-h">Mice And Rats</h1>
+        <picture>
+            <source media="(max-width: 600px)" srcset="/assets/images/pests.jpg">
+            <source media="(min-width: 601px)" srcset="/assets/images/pests.jpg">
+            <img aria-hidden="true" decoding="async" src="/assets/images/pests.jpg" alt="kitchen cabinets" loading="eager" width="2500" height="1667">
+        </picture>
+
+    </section>
+
+    <!-- ============================================ -->
+<!--                Side By Side                  -->
+<!-- ============================================ -->
+
+<section id="sbs-1815">
+    <div class="cs-container">
+        <div class="cs-image-group">
+            <!--Main Image-->
+            <picture class="cs-picture">
+                <!--Mobile Image-->
+                <source media="(max-width: 600px)" srcset="/assets/images/steam.jpg">
+                <!--Tablet and above Image-->
+                <source media="(min-width: 601px)" srcset="/assets/images/steam.jpg">
+                <img loading="lazy" decoding="async" src="/assets/images/steam.jpg" alt="body builder" width="700" height="666">
+            </picture>
+            <!--White SVG Mask. Download the image and change the fill color to match the color of the section background below it-->
+            <img class="cs-mask cs-light" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/paint-splash-222.svg" alt="white splatter" width="700" height="666">
+            <!--This is a dark version. Download the image and change the fill color to match the color of the section background below it-->
+            <img class="cs-mask cs-dark" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/dark-splash-030.svg" alt="white splatter" width="700" height="666">
+        </div>
+        <div class="cs-content">
+            <span class="cs-topper">Mice And Rats</span>
+            <h2 class="cs-title">Rodents in Oklahoma</h2>
+            <p class="cs-text">
+                Oklahoma’s climate makes it an ideal environment for rodents like mice and rats to thrive. Whether it’s house mice sneaking into kitchens and pantries or Norway rats nesting in basements and crawlspaces, these pests can quickly become a serious issue for homeowners. Rodents are more than just a nuisance—they carry diseases, contaminate food, and can cause significant damage by chewing through wires, insulation, and even plumbing. Because they reproduce rapidly, what starts as a minor issue can quickly turn into a full-blown infestation if left unchecked.
+            </p>
+            <h2 class="cs-title">Why Professional Treatment is Essential</h2>
+            <p class="cs-text">
+                Traps and store-bought baits may catch a few mice, but they rarely solve the problem at its source. Rodents are smart, adaptable, and often find ways around DIY methods. Professional pest control goes beyond surface-level solutions by identifying entry points, sealing off access, and using targeted treatments to eliminate the infestation completely. Our experts implement exclusion techniques to block rodents from getting inside while also using effective, industry-approved methods to remove those already present.
+            </p>
+            <h2 class="cs-title">Protect Your Home Year-Round</h2>
+            <p class="cs-text">
+                Mice and rats are active all year long, but infestations often spike in colder months when they seek warmth and shelter indoors. Ongoing pest control services provide long-term protection, keeping your home rodent-free and preventing costly damage. If you’ve noticed signs of rodent activity—such as droppings, gnaw marks, or scratching noises—don’t wait until the problem worsens. Schedule an inspection today, and let us help you protect your home from unwanted guests!
+            </p>
+            <a href="tel:{{client.phoneForTel}}" class="cs-button-solid">Call Now</a>
+        </div>
+    </div>
+
+    <!--White Splash Graphic-->
+    <img class="cs-graphic cs-light" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/1d1c-splatter.svg" alt="graphic" height="161" width="1920" loading="lazy" decoding="async" >
+    <!--This is a dark version. Download the image and change the fill color to match the color of the section background below it-->
+    <img class="cs-graphic cs-dark" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Graphics/dark-mode-splatter2.svg" alt="graphic" height="161" width="1920" loading="lazy" decoding="async" >
+</section>
+                                
+
+
+{% endblock %}

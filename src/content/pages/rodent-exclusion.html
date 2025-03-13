@@ -1,0 +1,64 @@
+---
+title: 'Rodent Exclusion | Al''s Home and Pest'
+description: 'Meta description for the page'
+preloadImg: '/assets/images/pests.jpg'
+permalink: 'rodent-exclusion/'
+eleventyNavigation:
+    key: Rodent Exclusion
+    order: 300
+---
+
+{% extends "layouts/base.html" %}
+
+{% block body %}
+    <!-- ============================================ -->
+    <!--                    LANDING                   -->
+    <!-- ============================================ -->
+
+    <section id="int-hero">
+        <h1 id="home-h">Rodent Exclusion</h1>
+        <picture>
+            <source media="(max-width: 600px)" srcset="/assets/images/pests.jpg">
+            <source media="(min-width: 601px)" srcset="/assets/images/pests.jpg">
+            <img aria-hidden="true" decoding="async" src="/assets/images/pests.jpg" alt="rodent exclusion services" loading="eager" width="2500" height="1667">
+        </picture>
+    </section>
+
+    <!-- ============================================ -->
+    <!--                Side By Side                  -->
+    <!-- ============================================ -->
+
+    <section id="sbs-1815">
+        <div class="cs-container">
+            <div class="cs-image-group">
+                <picture class="cs-picture">
+                    <source media="(max-width: 600px)" srcset="/assets/images/steam.jpg">
+                    <source media="(min-width: 601px)" srcset="/assets/images/steam.jpg">
+                    <img loading="lazy" decoding="async" src="/assets/images/steam.jpg" alt="rodent exclusion solutions" width="700" height="666">
+                </picture>
+                <img class="cs-mask cs-light" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/paint-splash-222.svg" alt="white splatter" width="700" height="666">
+                <img class="cs-mask cs-dark" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/dark-splash-030.svg" alt="white splatter" width="700" height="666">
+            </div>
+            <div class="cs-content">
+                <span class="cs-topper">Rodent Exclusion</span>
+                <h2 class="cs-title">Why Rodents Keep Coming Back</h2>
+                <p class="cs-text">
+                    If you’ve ever dealt with rodents sneaking into your home, you know how frustrating it can be. But there’s a reason it may feel like they keep coming back for more: Rodents leave behind pheromones that act like a big welcome sign for the next batch. Even if you catch a few mice or rats, those traces can keep drawing new ones in. If you don’t seal off their entry points, you’ll find yourself dealing with a never-ending cycle of scrabbling noises and chewed-up belongings.
+                </p>
+                <h2 class="cs-title">Rodent Exclusion: Sealing Entry Points for Lasting Protection</h2>
+                <p class="cs-text">
+                    Bait boxes and traps can help control the rodent population, but on their own, they don’t address the root of the problem: how the rodents are getting inside in the first place. Without proper exclusion—like patching gaps, repairing holes, and sealing cracks—new rodents can simply replace the ones you’ve removed. That’s why exclusion is so critical. By blocking off their pathways, you make your home a place where pests can’t thrive.
+                </p>
+                <h2 class="cs-title">Schedule an Inspection Today</h2>
+                <p class="cs-text">
+                    If you’re ready to break the cycle once and for all, don’t wait. Every day you delay is another day rodents can settle in and multiply. Call or schedule an inspection with our team, and let us help you keep rodents out for good. Your home should be a sanctuary, not a hideout for unwanted pests.
+                </p>
+                <a href="tel:{{client.phoneForTel}}" class="cs-button-solid">Call Now</a>
+            </div>
+        </div>
+
+        <img class="cs-graphic cs-light" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/1d1c-splatter.svg" alt="graphic" height="161" width="1920" loading="lazy" decoding="async" >
+        <img class="cs-graphic cs-dark" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Graphics/dark-mode-splatter2.svg" alt="graphic" height="161" width="1920" loading="lazy" decoding="async" >
+    </section>
+                                 
+{% endblock %}

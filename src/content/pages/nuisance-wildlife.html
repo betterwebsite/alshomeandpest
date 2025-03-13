@@ -1,0 +1,64 @@
+---
+title: 'Nuisance Wildlife | Al''s Home and Pest'
+description: 'Meta description for the page'
+preloadImg: '/assets/images/pests.jpg'
+permalink: 'nuisance-wildlife/'
+eleventyNavigation:
+    key: Nuisance Wildlife
+    order: 280
+---
+
+{% extends "layouts/base.html" %}
+
+{% block body %}
+    <!-- ============================================ -->
+    <!--                    LANDING                   -->
+    <!-- ============================================ -->
+
+    <section id="int-hero">
+        <h1 id="home-h">Nuisance Wildlife</h1>
+        <picture>
+            <source media="(max-width: 600px)" srcset="/assets/images/pests.jpg">
+            <source media="(min-width: 601px)" srcset="/assets/images/pests.jpg">
+            <img aria-hidden="true" decoding="async" src="/assets/images/pests.jpg" alt="nuisance wildlife control" loading="eager" width="2500" height="1667">
+        </picture>
+    </section>
+
+    <!-- ============================================ -->
+    <!--                Side By Side                  -->
+    <!-- ============================================ -->
+
+    <section id="sbs-1815">
+        <div class="cs-container">
+            <div class="cs-image-group">
+                <picture class="cs-picture">
+                    <source media="(max-width: 600px)" srcset="/assets/images/steam.jpg">
+                    <source media="(min-width: 601px)" srcset="/assets/images/steam.jpg">
+                    <img loading="lazy" decoding="async" src="/assets/images/steam.jpg" alt="nuisance wildlife infestation" width="700" height="666">
+                </picture>
+                <img class="cs-mask cs-light" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/paint-splash-222.svg" alt="white splatter" width="700" height="666">
+                <img class="cs-mask cs-dark" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/dark-splash-030.svg" alt="white splatter" width="700" height="666">
+            </div>
+            <div class="cs-content">
+                <span class="cs-topper">Nuisance Wildlife</span>
+                <h2 class="cs-title">Raccoons</h2>
+                <p class="cs-text">
+                    Raccoons may seem like harmless wildlife, but when they invade your home, they can cause serious structural damage and pose significant health risks. In Oklahoma, these nocturnal pests often break into attics, crawlspaces, and chimneys in search of shelter, tearing through insulation, chewing wires, and leaving behind waste that can carry dangerous diseases. One of the biggest concerns is raccoon feces, which can contain Baylisascaris procyonis, a parasite that produces a neurotoxin harmful to humans and pets. Attempting to remove raccoons on your own can be dangerous, as they are strong, intelligent, and can become aggressive when threatened. Professional pest control ensures the safe and humane removal of raccoons, followed by exclusion techniques to seal entry points and prevent reinfestation.
+                </p>
+                <h2 class="cs-title">Opossums</h2>
+                <p class="cs-text">
+                    Opossums may not seem as destructive as other pests, but when they invade your home, they can cause serious health and safety concerns. In Oklahoma, these nocturnal scavengers often seek shelter in attics, crawlspaces, and under decks, leaving behind droppings, contaminating food sources, and carrying parasites like fleas and ticks. Their feces can also contain harmful bacteria, posing a risk to both humans and pets. Opossums are known to play dead when threatened, making DIY removal tricky and ineffective. Professional pest control ensures their safe and humane removal, while exclusion techniques seal off entry points to prevent future infestations.
+                </p>
+                <h2 class="cs-title">Moles & Gophers</h2>
+                <p class="cs-text">
+                    Moles and gophers may stay out of sight, but the damage they cause beneath your yard can be significant. In Oklahoma, these burrowing pests create unsightly tunnels and mounds that ruin lawns, destroy landscaping, and even weaken soil stability. Moles primarily feed on insects, while gophers chew through plant roots, garden beds, and even underground utility lines. DIY methods like traps and repellents often provide only temporary relief, as these pests are persistent and can quickly repopulate an area. Professional pest control offers targeted solutions to remove moles and gophers effectively while implementing preventative measures to keep them from returning.
+                </p>
+                <a href="tel:{{client.phoneForTel}}" class="cs-button-solid">Call Now</a>
+            </div>
+        </div>
+
+        <img class="cs-graphic cs-light" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/1d1c-splatter.svg" alt="graphic" height="161" width="1920" loading="lazy" decoding="async" >
+        <img class="cs-graphic cs-dark" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Graphics/dark-mode-splatter2.svg" alt="graphic" height="161" width="1920" loading="lazy" decoding="async" >
+    </section>
+                                 
+{% endblock %}

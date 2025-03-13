@@ -1,0 +1,64 @@
+---
+title: 'Wasps and Hornets | Al''s Home and Pest'
+description: 'Meta description for the page'
+preloadImg: '/assets/images/pests.jpg'
+permalink: 'waspsandhornets/'
+eleventyNavigation:
+    key: Wasps and Hornets
+    order: 250
+---
+
+{% extends "layouts/base.html" %}
+
+{% block body %}
+    <!-- ============================================ -->
+    <!--                    LANDING                   -->
+    <!-- ============================================ -->
+
+    <section id="int-hero">
+        <h1 id="home-h">Wasps and Hornets</h1>
+        <picture>
+            <source media="(max-width: 600px)" srcset="/assets/images/pests.jpg">
+            <source media="(min-width: 601px)" srcset="/assets/images/pests.jpg">
+            <img aria-hidden="true" decoding="async" src="/assets/images/pests.jpg" alt="kitchen cabinets" loading="eager" width="2500" height="1667">
+        </picture>
+    </section>
+
+    <!-- ============================================ -->
+    <!--                Side By Side                  -->
+    <!-- ============================================ -->
+
+    <section id="sbs-1815">
+        <div class="cs-container">
+            <div class="cs-image-group">
+                <picture class="cs-picture">
+                    <source media="(max-width: 600px)" srcset="/assets/images/steam.jpg">
+                    <source media="(min-width: 601px)" srcset="/assets/images/steam.jpg">
+                    <img loading="lazy" decoding="async" src="/assets/images/steam.jpg" alt="wasp and hornet infestation" width="700" height="666">
+                </picture>
+                <img class="cs-mask cs-light" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/paint-splash-222.svg" alt="white splatter" width="700" height="666">
+                <img class="cs-mask cs-dark" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/dark-splash-030.svg" alt="white splatter" width="700" height="666">
+            </div>
+            <div class="cs-content">
+                <span class="cs-topper">Wasps and Hornets</span>
+                <h2 class="cs-title">Hornet & Wasp Problems in Oklahoma: Why Professional Pest Control is the Solution</h2>
+                <p class="cs-text">
+                    Oklahoma’s warm climate makes it an ideal environment for hornets and wasps to thrive, especially during the spring and summer months. While these stinging insects play a role in controlling other pests, having them build nests around your home can be dangerous. Unlike bees, wasps and hornets can sting multiple times, and their aggressive nature makes them a serious threat—especially for children, pets, and those allergic to their venom. Whether they’re nesting under eaves, in attics, or around decks and patios, an infestation can turn your outdoor spaces into a danger zone.
+                </p>
+                <h2 class="cs-title">Why Professional Treatment is Essential</h2>
+                <p class="cs-text">
+                    Hornets and wasps are highly territorial, and attempting to remove a nest on your own can lead to painful stings and even serious medical emergencies. Store-bought sprays may kill a few wasps, but they won’t address the entire colony or prevent new nests from forming. Professional pest control ensures safe and complete removal, using specialized techniques to eliminate active nests and prevent reinfestation. Our experts locate hidden nesting sites, apply effective treatments, and take preventative steps to keep your home and yard safe.
+                </p>
+                <h2 class="cs-title">Protect Your Home and Family Year-Round</h2>
+                <p class="cs-text">
+                    Wasps and hornets become more aggressive as their populations grow, making it crucial to address the problem before nests expand. Even if you haven’t seen a nest, spotting increased wasp activity around your home could indicate one is nearby. Regular pest control treatments provide ongoing protection, ensuring these stinging insects don’t return. If you’ve noticed wasps or hornets around your property, don’t wait for the problem to escalate. Schedule an inspection today, and let us safely and effectively handle the issue!
+                </p>
+                <a href="tel:{{client.phoneForTel}}" class="cs-button-solid">Call Now</a>
+            </div>
+        </div>
+
+        <img class="cs-graphic cs-light" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/1d1c-splatter.svg" alt="graphic" height="161" width="1920" loading="lazy" decoding="async" >
+        <img class="cs-graphic cs-dark" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Graphics/dark-mode-splatter2.svg" alt="graphic" height="161" width="1920" loading="lazy" decoding="async" >
+    </section>
+                                 
+{% endblock %}

@@ -1,0 +1,64 @@
+---
+title: 'Spiders | Al''s Home and Pest'
+description: 'Meta description for the page'
+preloadImg: '/assets/images/pests.jpg'
+permalink: 'spiders/'
+eleventyNavigation:
+    key: Spiders
+    order: 240
+---
+
+{% extends "layouts/base.html" %}
+
+{% block body %}
+    <!-- ============================================ -->
+    <!--                    LANDING                   -->
+    <!-- ============================================ -->
+
+    <section id="int-hero">
+        <h1 id="home-h">Spiders</h1>
+        <picture>
+            <source media="(max-width: 600px)" srcset="/assets/images/pests.jpg">
+            <source media="(min-width: 601px)" srcset="/assets/images/pests.jpg">
+            <img aria-hidden="true" decoding="async" src="/assets/images/pests.jpg" alt="kitchen cabinets" loading="eager" width="2500" height="1667">
+        </picture>
+    </section>
+
+    <!-- ============================================ -->
+    <!--                Side By Side                  -->
+    <!-- ============================================ -->
+
+    <section id="sbs-1815">
+        <div class="cs-container">
+            <div class="cs-image-group">
+                <picture class="cs-picture">
+                    <source media="(max-width: 600px)" srcset="/assets/images/steam.jpg">
+                    <source media="(min-width: 601px)" srcset="/assets/images/steam.jpg">
+                    <img loading="lazy" decoding="async" src="/assets/images/steam.jpg" alt="spider infestation" width="700" height="666">
+                </picture>
+                <img class="cs-mask cs-light" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/paint-splash-222.svg" alt="white splatter" width="700" height="666">
+                <img class="cs-mask cs-dark" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/dark-splash-030.svg" alt="white splatter" width="700" height="666">
+            </div>
+            <div class="cs-content">
+                <span class="cs-topper">Spiders</span>
+                <h2 class="cs-title">Spider Problems in Oklahoma: Why Professional Pest Control is the Solution</h2>
+                <p class="cs-text">
+                    Oklahoma is home to a variety of spider species, from common house spiders to more concerning ones like brown recluses and black widows. While most spiders help control insect populations, an infestation inside your home can quickly become a problem. Spiders often hide in dark, undisturbed areas like closets, basements, and attics, making it easy for their populations to grow unnoticed. Some species, like the brown recluse, can deliver venomous bites that pose health risks to you and your family.
+                </p>
+                <h2 class="cs-title">Why Professional Treatment Is Essential</h2>
+                <p class="cs-text">
+                    Spiders are notoriously difficult to eliminate with DIY solutions because they don’t respond well to over-the-counter sprays and often retreat to hidden areas. Professional pest control targets both the spiders themselves and the insects they feed on, cutting off their food source. Our experts use safe, effective treatments to reduce spider populations and apply preventative measures to keep them from returning. We also identify entry points and nesting areas, ensuring a long-term solution rather than a temporary fix.
+                </p>
+                <h2 class="cs-title">Protect Your Home Year-Round</h2>
+                <p class="cs-text">
+                    Spider activity tends to increase in Oklahoma as temperatures change, with many species seeking shelter indoors during colder months. Regular pest control treatments not only eliminate current infestations but also create a protective barrier to keep spiders from returning. If you’ve noticed an increase in spider activity or have seen venomous species like the brown recluse, don’t wait until the problem worsens. Schedule an inspection today, and let us help you keep your home safe and spider-free!
+                </p>
+                <a href="tel:{{client.phoneForTel}}" class="cs-button-solid">Call Now</a>
+            </div>
+        </div>
+
+        <img class="cs-graphic cs-light" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/1d1c-splatter.svg" alt="graphic" height="161" width="1920" loading="lazy" decoding="async" >
+        <img class="cs-graphic cs-dark" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Graphics/dark-mode-splatter2.svg" alt="graphic" height="161" width="1920" loading="lazy" decoding="async" >
+    </section>
+                                 
+{% endblock %}

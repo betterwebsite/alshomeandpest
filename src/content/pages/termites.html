@@ -1,0 +1,64 @@
+---
+title: 'Termites | Al''s Home and Pest'
+description: 'Meta description for the page'
+preloadImg: '/assets/images/pests.jpg'
+permalink: 'termites/'
+eleventyNavigation:
+    key: Termites
+    order: 230
+---
+
+{% extends "layouts/base.html" %}
+
+{% block body %}
+    <!-- ============================================ -->
+    <!--                    LANDING                   -->
+    <!-- ============================================ -->
+
+    <section id="int-hero">
+        <h1 id="home-h">Termites</h1>
+        <picture>
+            <source media="(max-width: 600px)" srcset="/assets/images/pests.jpg">
+            <source media="(min-width: 601px)" srcset="/assets/images/pests.jpg">
+            <img aria-hidden="true" decoding="async" src="/assets/images/pests.jpg" alt="kitchen cabinets" loading="eager" width="2500" height="1667">
+        </picture>
+    </section>
+
+    <!-- ============================================ -->
+    <!--                Side By Side                  -->
+    <!-- ============================================ -->
+
+    <section id="sbs-1815">
+        <div class="cs-container">
+            <div class="cs-image-group">
+                <picture class="cs-picture">
+                    <source media="(max-width: 600px)" srcset="/assets/images/steam.jpg">
+                    <source media="(min-width: 601px)" srcset="/assets/images/steam.jpg">
+                    <img loading="lazy" decoding="async" src="/assets/images/steam.jpg" alt="termite damage" width="700" height="666">
+                </picture>
+                <img class="cs-mask cs-light" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/paint-splash-222.svg" alt="white splatter" width="700" height="666">
+                <img class="cs-mask cs-dark" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/dark-splash-030.svg" alt="white splatter" width="700" height="666">
+            </div>
+            <div class="cs-content">
+                <span class="cs-topper">Termites</span>
+                <h2 class="cs-title">Termite Problems in Oklahoma: Why Professional Pest Control is the Solution</h2>
+                <p class="cs-text">
+                    Oklahoma’s warm climate and high humidity levels make it a prime location for termite infestations. Subterranean termites, the most destructive species in the state, are known for silently eating away at the wooden structures of homes, often going undetected until serious damage has already been done. These pests don’t just target older homes—any structure with wood, including framing, flooring, and even furniture, is at risk. Left unchecked, a termite infestation can lead to costly repairs and even compromise the structural integrity of your home.
+                </p>
+                <h2 class="cs-title">Why Professional Pest Control is Essential</h2>
+                <p class="cs-text">
+                    Unlike other household pests, termites require specialized treatment methods that go beyond simple DIY solutions. Store-bought sprays and treatments may kill a few termites on the surface, but they won’t eliminate the colony hiding underground. Professional pest control utilizes advanced techniques, such as baiting systems and liquid treatments, to target termites at their source and prevent further damage. Our experts also conduct thorough inspections to identify problem areas and implement long-term solutions that keep termites from coming back.
+                </p>
+                <h2 class="cs-title">Protect Your Home Year-Round</h2>
+                <p class="cs-text">
+                    Termites work 24/7, causing damage year-round. Unfortunately, because they remain hidden inside walls and wood, many homeowners don’t realize they have a problem until it’s too late. Regular termite inspections and preventative treatments provide lasting protection, ensuring your home stays termite-free. If you’ve noticed signs of termite activity—such as hollow-sounding wood, mud tubes, or discarded wings—don’t wait until the damage worsens. Schedule an inspection today, and let us help safeguard your home before termites can cause costly destruction!
+                </p>
+                <a href="tel:{{client.phoneForTel}}" class="cs-button-solid">Call Now</a>
+            </div>
+        </div>
+
+        <img class="cs-graphic cs-light" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/1d1c-splatter.svg" alt="graphic" height="161" width="1920" loading="lazy" decoding="async" >
+        <img class="cs-graphic cs-dark" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Graphics/dark-mode-splatter2.svg" alt="graphic" height="161" width="1920" loading="lazy" decoding="async" >
+    </section>
+                                 
+{% endblock %}

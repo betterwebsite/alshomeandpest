@@ -1,0 +1,64 @@
+---
+title: 'Ants | Al''s Home and Pest'
+description: 'Meta description for the page'
+preloadImg: '/assets/images/pests.jpg'
+permalink: 'ants/'
+eleventyNavigation:
+    key: Ants
+    order: 210
+---
+
+{% extends "layouts/base.html" %}
+
+{% block body %}
+    <!-- ============================================ -->
+    <!--                    LANDING                   -->
+    <!-- ============================================ -->
+
+    <section id="int-hero">
+        <h1 id="home-h">Ants</h1>
+        <picture>
+            <source media="(max-width: 600px)" srcset="/assets/images/pests.jpg">
+            <source media="(min-width: 601px)" srcset="/assets/images/pests.jpg">
+            <img aria-hidden="true" decoding="async" src="/assets/images/pests.jpg" alt="kitchen cabinets" loading="eager" width="2500" height="1667">
+        </picture>
+    </section>
+
+    <!-- ============================================ -->
+    <!--                Side By Side                  -->
+    <!-- ============================================ -->
+
+    <section id="sbs-1815">
+        <div class="cs-container">
+            <div class="cs-image-group">
+                <picture class="cs-picture">
+                    <source media="(max-width: 600px)" srcset="/assets/images/steam.jpg">
+                    <source media="(min-width: 601px)" srcset="/assets/images/steam.jpg">
+                    <img loading="lazy" decoding="async" src="/assets/images/steam.jpg" alt="ants infestation" width="700" height="666">
+                </picture>
+                <img class="cs-mask cs-light" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/paint-splash-222.svg" alt="white splatter" width="700" height="666">
+                <img class="cs-mask cs-dark" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/dark-splash-030.svg" alt="white splatter" width="700" height="666">
+            </div>
+            <div class="cs-content">
+                <span class="cs-topper">Ants</span>
+                <h2 class="cs-title">Ants in Oklahoma</h2>
+                <p class="cs-text">
+                    Oklahoma is home to a variety of ant species, each bringing its own set of challenges for homeowners. From tiny sugar ants invading your kitchen to aggressive fire ants taking over your yard, these persistent pests can quickly become a major nuisance. Carpenter ants, in particular, can cause structural damage by burrowing into wooden beams, while odorous house ants contaminate food and leave behind stubborn trails. Because ants are highly social insects, a few visible foragers often indicate a much larger hidden colony nearby. Without proper treatment, infestations can spread rapidly, making DIY solutions ineffective in the long run.
+                </p>
+                <h2 class="cs-title">Why Professional Treatment Is Essential</h2>
+                <p class="cs-text">
+                    While store-bought ant sprays and baits may kill a few ants on contact, they rarely eliminate the root of the problem—the colony itself. Professional pest control takes a strategic approach by identifying the specific species, locating nesting sites, and using targeted treatments that disrupt the entire colony, not just the workers you see. Our experts apply industry-leading solutions that eliminate ants at their source and create a protective barrier around your home, preventing future invasions.
+                </p>
+                <h2 class="cs-title">Protect Your Home Year-Round</h2>
+                <p class="cs-text">
+                    Ants in Oklahoma are most active during the warmer months, but infestations can occur at any time of the year, especially in search of food and shelter. Regular pest control treatments provide long-term protection, keeping ants from returning and ensuring your home stays pest-free. If you’re tired of battling endless ant trails, don’t wait until the problem gets worse.
+                </p>
+                <a href="tel:{{client.phoneForTel}}" class="cs-button-solid">Call Now</a>
+            </div>
+        </div>
+
+        <img class="cs-graphic cs-light" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/1d1c-splatter.svg" alt="graphic" height="161" width="1920" loading="lazy" decoding="async" >
+        <img class="cs-graphic cs-dark" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Graphics/dark-mode-splatter2.svg" alt="graphic" height="161" width="1920" loading="lazy" decoding="async" >
+    </section>
+                                 
+{% endblock %}

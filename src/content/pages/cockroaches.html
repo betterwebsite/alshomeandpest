@@ -1,0 +1,64 @@
+---
+title: 'Cockroaches | Al''s Home and Pest'
+description: 'Meta description for the page'
+preloadImg: '/assets/images/pests.jpg'
+permalink: 'cockroaches/'
+eleventyNavigation:
+    key: Cockroaches
+    order: 220
+---
+
+{% extends "layouts/base.html" %}
+
+{% block body %}
+    <!-- ============================================ -->
+    <!--                    LANDING                   -->
+    <!-- ============================================ -->
+
+    <section id="int-hero">
+        <h1 id="home-h">Cockroaches</h1>
+        <picture>
+            <source media="(max-width: 600px)" srcset="/assets/images/pests.jpg">
+            <source media="(min-width: 601px)" srcset="/assets/images/pests.jpg">
+            <img aria-hidden="true" decoding="async" src="/assets/images/pests.jpg" alt="kitchen cabinets" loading="eager" width="2500" height="1667">
+        </picture>
+    </section>
+
+    <!-- ============================================ -->
+    <!--                Side By Side                  -->
+    <!-- ============================================ -->
+
+    <section id="sbs-1815">
+        <div class="cs-container">
+            <div class="cs-image-group">
+                <picture class="cs-picture">
+                    <source media="(max-width: 600px)" srcset="/assets/images/steam.jpg">
+                    <source media="(min-width: 601px)" srcset="/assets/images/steam.jpg">
+                    <img loading="lazy" decoding="async" src="/assets/images/steam.jpg" alt="cockroach infestation" width="700" height="666">
+                </picture>
+                <img class="cs-mask cs-light" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/paint-splash-222.svg" alt="white splatter" width="700" height="666">
+                <img class="cs-mask cs-dark" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/dark-splash-030.svg" alt="white splatter" width="700" height="666">
+            </div>
+            <div class="cs-content">
+                <span class="cs-topper">Cockroaches</span>
+                <h2 class="cs-title">The Ultimate Survivor</h2>
+                <p class="cs-text">
+                    Cockroaches are one of the most resilient and unwelcome pests in Oklahoma homes. With species like German, American, and Oriental cockroaches thriving in the state’s climate, infestations can quickly get out of control. These pests are more than just unsettling—they spread bacteria, contaminate food, and can trigger allergies and asthma, especially in children and sensitive individuals. Because cockroaches are nocturnal and excellent at hiding, spotting just one often means there are many more lurking behind walls, appliances, and cabinets.
+                </p>
+                <h2 class="cs-title">Why Professional Treatment is Essential</h2>
+                <p class="cs-text">
+                    Store-bought sprays and traps might kill a few cockroaches, but they rarely reach the root of the problem. Roaches reproduce rapidly, and many over-the-counter treatments don’t penetrate their hidden nesting areas. Professional pest control tackles the infestation at its source by identifying entry points, using targeted treatments that eliminate cockroaches at all life stages, and applying long-lasting barriers to prevent reinfestation. Our experts know where roaches hide and use proven methods to completely eradicate them, ensuring they don’t come back.
+                </p>
+                <h2 class="cs-title">Protect Your Home Year-Round</h2>
+                <p class="cs-text">
+                    Cockroaches thrive in warm, humid environments, making Oklahoma homes a perfect habitat. They can survive on minimal food and water, meaning even the cleanest homes can experience infestations. Regular pest control treatments provide ongoing protection, keeping cockroaches from returning and ensuring your home stays pest-free. If you’ve seen even one roach, don’t wait—schedule an inspection today and let our team eliminate the problem before it spreads!
+                </p>
+                <a href="tel:{{client.phoneForTel}}" class="cs-button-solid">Call Now</a>
+            </div>
+        </div>
+
+        <img class="cs-graphic cs-light" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/1d1c-splatter.svg" alt="graphic" height="161" width="1920" loading="lazy" decoding="async" >
+        <img class="cs-graphic cs-dark" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Graphics/dark-mode-splatter2.svg" alt="graphic" height="161" width="1920" loading="lazy" decoding="async" >
+    </section>
+                                 
+{% endblock %}

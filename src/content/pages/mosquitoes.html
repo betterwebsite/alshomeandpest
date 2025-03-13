@@ -1,0 +1,64 @@
+---
+title: 'Mosquito | Al''s Home and Pest'
+description: 'Meta description for the page'
+preloadImg: '/assets/images/pests.jpg'
+permalink: 'mosquitoes/'
+eleventyNavigation:
+    key: Mosquitoes
+    order: 260
+---
+
+{% extends "layouts/base.html" %}
+
+{% block body %}
+    <!-- ============================================ -->
+    <!--                    LANDING                   -->
+    <!-- ============================================ -->
+
+    <section id="int-hero">
+        <h1 id="home-h">Mosquito</h1>
+        <picture>
+            <source media="(max-width: 600px)" srcset="/assets/images/pests.jpg">
+            <source media="(min-width: 601px)" srcset="/assets/images/pests.jpg">
+            <img aria-hidden="true" decoding="async" src="/assets/images/pests.jpg" alt="mosquito control" loading="eager" width="2500" height="1667">
+        </picture>
+    </section>
+
+    <!-- ============================================ -->
+    <!--                Side By Side                  -->
+    <!-- ============================================ -->
+
+    <section id="sbs-1815">
+        <div class="cs-container">
+            <div class="cs-image-group">
+                <picture class="cs-picture">
+                    <source media="(max-width: 600px)" srcset="/assets/images/steam.jpg">
+                    <source media="(min-width: 601px)" srcset="/assets/images/steam.jpg">
+                    <img loading="lazy" decoding="async" src="/assets/images/steam.jpg" alt="mosquito infestation" width="700" height="666">
+                </picture>
+                <img class="cs-mask cs-light" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/paint-splash-222.svg" alt="white splatter" width="700" height="666">
+                <img class="cs-mask cs-dark" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/dark-splash-030.svg" alt="white splatter" width="700" height="666">
+            </div>
+            <div class="cs-content">
+                <span class="cs-topper">Mosquitos</span>
+                <h2 class="cs-title">Mosquito Problems in Oklahoma: Why Professional Pest Control is the Solution</h2>
+                <p class="cs-text">
+                    Oklahoma’s warm, humid climate creates the perfect breeding ground for mosquitoes, making them a persistent problem for homeowners. These bloodsucking pests are more than just an annoyance—they carry dangerous diseases like West Nile virus and Zika virus, posing a serious health risk to your family and pets. Mosquitoes breed quickly in standing water, meaning even small amounts of moisture around your home can lead to a growing infestation. Without proper control, these pests can make it nearly impossible to enjoy your outdoor spaces.
+                </p>
+                <h2 class="cs-title">Why Professional Treatment is Essential</h2>
+                <p class="cs-text">
+                    DIY mosquito repellents, citronella candles, and store-bought sprays may provide temporary relief, but they don’t target mosquitoes at the source. Professional pest control uses targeted treatments to eliminate mosquito breeding grounds, reduce their populations, and create a long-lasting barrier of protection around your home. Our experts apply strategic fogging treatments and larvicide applications in areas where mosquitoes thrive, ensuring a significant reduction in activity and preventing future infestations.
+                </p>
+                <h2 class="cs-title">Protect Your Home Year-Round</h2>
+                <p class="cs-text">
+                    Mosquitoes are most active in the spring and summer, but warm days throughout the year can keep them lingering longer than expected. Regular pest control treatments provide continuous protection, allowing you to enjoy your yard without worrying about bites or potential health risks. If mosquitoes are taking over your outdoor space, don’t wait for the problem to escalate. Schedule an inspection today, and let us help you reclaim your backyard!
+                </p>
+                <a href="tel:{{client.phoneForTel}}" class="cs-button-solid">Call Now</a>
+            </div>
+        </div>
+
+        <img class="cs-graphic cs-light" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/1d1c-splatter.svg" alt="graphic" height="161" width="1920" loading="lazy" decoding="async" >
+        <img class="cs-graphic cs-dark" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Graphics/dark-mode-splatter2.svg" alt="graphic" height="161" width="1920" loading="lazy" decoding="async" >
+    </section>
+                                 
+{% endblock %}
